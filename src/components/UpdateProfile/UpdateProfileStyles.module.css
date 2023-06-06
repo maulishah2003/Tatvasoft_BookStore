@@ -1,0 +1,23 @@
+.updateProfileWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.underline{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width:150px;
+    height:2px;
+    background-color: #f14d54;
+}
+.twoTextFieldsContainer{
+    display: flex; 
+    margin-bottom: 20px;
+}
+.singleTextFieldContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-right: 50px;
+}

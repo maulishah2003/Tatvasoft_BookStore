@@ -1,0 +1,29 @@
+.addBookWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.underline{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width:150px;
+    height:2px;
+    background-color: #f14d54;
+}
+.fieldsWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.description{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.twoTextFieldContainer{
+    display: flex; 
+}

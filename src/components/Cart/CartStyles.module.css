@@ -1,0 +1,87 @@
+.cartWrapper{
+    width:100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.underline{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width:150px;
+    height:2px;
+    background-color: #f14d54;
+}
+.subTextContainer{
+    width:50%;
+    display: flex;
+}
+.itemCardWrapper{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.totalPrice{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: auto;
+    font-size: 17px;
+    color:#414141;
+    font-weight: 500;
+}
+.itemCards{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px 20px;
+    border:1px solid #CCCCCC;
+    border-radius: 10px;
+}
+.itemImage{
+    width:150px;
+    max-height:100px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.itemDescription{
+    display: flex;
+    flex-direction: column;
+    width:500px;
+    padding-top:2%;
+    row-gap: 20px;
+}
+.itemDescriptionRow{
+    display: flex;
+    flex-direction: row;
+}
+.itemPrice{
+    margin-left: auto;
+}
+.quantityContainer{
+    display: flex;
+}
+.quantityButton{
+    width:23px;
+    height: 20px;
+    background-color: #f14d54;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color:white;
+    padding-bottom: 5px;
+    border-radius: 2px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.quantityNumber{
+    text-align: center;    
+    width:23px;
+    height: 23px;
+    margin: 0 10px;
+    border:1px solid #CCCCCC
+}
+.placeOrderButton{
+    margin-top: 20px;
+}

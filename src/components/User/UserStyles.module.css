@@ -1,0 +1,18 @@
+.userWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.underline{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width:150px;
+    height:2px;
+    background-color: #f14d54;
+}
+.search{
+    width:87%;
+    display: flex;
+    justify-content: flex-end;
+}
